@@ -128,7 +128,8 @@ I used a "for" loop to:
 5.	From the data set in step 4, creates a second, independent 
    tidy data set with the average of each variable for each activity and each subject.
    
-   - used groupby followed by a summarized and calculated the average
+   - used dcast command to calculate the average of each variable for each activty and each subject.
+   Output of tidy data is included in tidydata.txt.
    - 180 observations with 81 variables Names + 2 for the subject and activity
    - 180 observations (rows): subject (30) x activity (6 different activities)
    - 81 variables(columns): columns from the average of the measurements for mean and standard deviation
