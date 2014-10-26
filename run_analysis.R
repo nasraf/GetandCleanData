@@ -111,6 +111,8 @@ for (i in 3:(length(col_header))) {
 
 ## tidy data set with the average of each variable for each activity and each subject
 
-tidy_data<-dcast(meanstd_data, subject+activity ~ col_header,fun.aggregate = mean)
+mdata <- melt(meanstd_data, id=c("subject","activity")) 
+
+tidy_data<-dcast(mdata, subject+activity ~ col_header,fun.aggregate = mean)
 
 write.table(tidy_data,"tidydata.txt",row.names = FALSE)
