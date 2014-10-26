@@ -3,3 +3,18 @@
 4. Appropriately labels the data set with descriptive variable names. 
 
 I did this by using a "for" loop to cycle througe
+
+  "Acc"," Accelerometer "
+  "^t" replaced with "Time "
+  "-" replaced with " "
+  "mean" replaced with "Mean Value "
+  "[:():]" replaced with ""
+  "Gyro" replaced with "Gyroscope "
+  "Jerk" replaced with "Jerk "
+  "^f" replaced with "Frequency "
+  "BodyBody" replaced with "Body "
+  "Body" replaced with "Body "
+  "std" replaced with "Standard Deviation"
+  "X" replaced with " Signal In X Direction"
+  "Y" replaced with " Signal In Y Direction"
+  "Z" replaced with " Signal In Z Direction"
