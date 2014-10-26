@@ -8,7 +8,13 @@
 
 4. Appropriately labels the data set with descriptive variable names. 
 
-I did this by using a "for" loop to cycle througe
+I used a "for" loop to: 
+- cycle through each header name
+- place the header into a temporary variable
+- replace and editing each temp header with a sequence of gsub calls
+- save each updated header into a new headers-only table
+- Once all my changes were completed in the for loop
+- replaced the main data table headers with the items in my updated headers-only table
 
   "Acc"," Accelerometer "
   "^t" replaced with "Time "
