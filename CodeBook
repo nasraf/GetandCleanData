@@ -3,11 +3,12 @@ This is the Codebook describing the approach that was followed to execute the fo
 
 1.	Merges the training and the test sets to create one data set.
 
-- Merged the training and the test sets to create one data set (10299 observations with 563 variables) 
-2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
-- used grepl 
+- combined training data, training label, and subject_train  using cbind command
+- combined test data, test label, and subject_test using cbind command 
+- Merged the training and the test sets using rbind to create one data set (10299 observations with 563 variables) 
 
-data set is now :10299 observations with 81 variables
+2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
+- used grepl and got an output data set of :10299 observations with 81 variables
 
 
 3. Uses descriptive activity names to name the activities in the data set
