@@ -45,8 +45,10 @@ www.smartlab.ws
      test_data_label_subject
    - Extract only features ending with mean() and std() and store it in variable called meanstd_data
    - Usee descriptive activity names to name the activities in the data set by factoring the variables and using levels:1:6
+   - appropriately labeling the data set with descriptive variable names and  createing a second, independent tidy data set
+     with thea verage of each variable for each activity and each subject is described in the CODEBOOK
 
-- -tidydata.txt': output contain the data of step 5 listed-above. It contains the following descriptive varibales:
-- 
+- -tidydata.txt': contains the tidy data of step 5 listed-above. 
+ 
 
 
