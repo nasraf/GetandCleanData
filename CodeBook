@@ -2,8 +2,12 @@
 This is the Codebook describing the approach that was followed to execute the followin step 1 to step 5.
 
 1.	Merges the training and the test sets to create one data set.
-2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
 
+- Merged the training and the test sets to create one data set (10299 observations with 563 variables) 
+2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
+- used grepl 
+
+data set is now :10299 observations with 81 variables
 
 
 3. Uses descriptive activity names to name the activities in the data set
@@ -125,6 +129,8 @@ I used a "for" loop to:
    tidy data set with the average of each variable for each activity and each subject.
    
    - used groupby followed by a summarized and calculated the average
-   
+   - 180 observations with 81 variables Names + 2 for the subject and activity
+   - 180 observations (rows): subject (30) x activity (6 different activities)
+   - 81 variables(columns): columns from the average of the measurements for mean and standard deviation
    
    
