@@ -38,8 +38,13 @@ www.smartlab.ws
    - read Subjet test data set and store it in a variable called Subject_test
    - read test label data set and store it in a varibale called test_label
    - read train label data set and store it in a variable called train_label
-   - read features.text
-- 
+   - read features.text data set and store it in a variable called features
+   - combine training data with train labels and subject train data and store it in a variable called
+     train_data_label_subject
+   - combine test data with test labels and subject test data and store it in a variable called
+     test_data_label_subject
+   - Extract only features ending with mean() and std() and store it in variable called meanstd_data
+   - Usee descriptive activity names to name the activities in the data set by factoring the variables and using levels:1:6
 
 - -tidydata.txt': output contain the data of step 5 listed-above. It contains the following descriptive varibales:
 - 
