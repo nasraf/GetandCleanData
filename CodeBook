@@ -8,6 +8,9 @@ This is the Codebook describing the approach that was followed to execute the fo
 - Merged the training and the test sets using rbind to create one data set (10299 observations with 563 variables) 
 
 2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
+- I included meanFreq() as well. Given that we are extracting the mean variables, I thought getting the 
+  weighted average of the frequency to obtain the mean frequency will add value in the analysis.
+  
 - used grepl and got an output data set of :10299 observations with 81 variables
 
 
