@@ -14,10 +14,10 @@ www.smartlab.ws
 
 1. The script run_analysis.R must be run inside a directory called UCI HAR Dataset 
 2. UCI HAR Dataset contains the following folders and files:
-- train folder: contains three files: X_train, Y_train, Subject_train and one Inertial Signals folder
-- test folder: contains three files: X_test, Y_test, Subject_test and one Inertial Signals folder
-- 'README.txt'
-- run_analysis.R: R script to execute the following steps:
+  -  train folder: contains three files: X_train, Y_train, Subject_train and one Inertial Signals folder
+  - test folder: contains three files: X_test, Y_test, Subject_test and one Inertial Signals folder
+  - 'README.txt'
+  - run_analysis.R: R script to execute the following steps:
 
     1.	Merges the training and the test sets to create one data set.
     2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
