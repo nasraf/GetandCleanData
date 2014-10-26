@@ -1,3 +1,6 @@
+
+This is the Codebook describing the approach that was followed to execute the followin step 1 to step 5.
+
 1.	Merges the training and the test sets to create one data set.
 2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
 
@@ -117,3 +120,11 @@ I used a "for" loop to:
 "79" "Frequency Body  Gyroscope Jerk Mag Mean Value "
 "80" "Frequency Body  Gyroscope Jerk Mag Standard Deviation"
 "81" "Frequency Body  Gyroscope Jerk Mag Mean Value Freq"
+
+5.	From the data set in step 4, creates a second, independent 
+   tidy data set with the average of each variable for each activity and each subject.
+   
+   - used groupby followed by a summarized and calculated the average
+   
+   
+   
