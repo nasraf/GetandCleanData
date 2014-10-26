@@ -16,6 +16,9 @@ I used a "for" loop to:
 - Once all my changes were completed in the for loop
 - replaced the main data table headers with the items in my updated headers-only table
 
+- 
+- given that XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
   "Acc"," Accelerometer "
   "^t" replaced with "Time "
   "-" replaced with " "
