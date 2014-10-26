@@ -1,5 +1,5 @@
 
-This is the Codebook describing the approach that was followed to execute the followin step 1 to step 5.
+This is the Codebook describing the approach that was followed to execute the following step 1 to step 5.
 
 1.	Merges the training and the test sets to create one data set.
 
@@ -15,20 +15,20 @@ This is the Codebook describing the approach that was followed to execute the fo
 
 
 3. Uses descriptive activity names to name the activities in the data set
- factor with levels=1:6 'WALKING', 'WALKING_UPSTAIRS', 'WALKING_DOWNSTAIRS','SITTING','STANDING','LAYING'
+ - factored with levels=1:6 'WALKING', 'WALKING_UPSTAIRS', 'WALKING_DOWNSTAIRS','SITTING','STANDING','LAYING'
 
 4. Appropriately labels the data set with descriptive variable names. 
 
 I used a "for" loop to: 
-- cycle through each header name
-- place the header into a temporary variable
+- cycle through each variable name
+- place the variable name  into a temporary variable
 - replace and editing each temp header with a sequence of gsub calls
 - save each updated header into a new headers-only table
 - Once all my changes were completed in the for loop
-- replaced the main data table headers with the items in my updated headers-only table
+- replaced the main data table headers with the items in my updated headers-only tab
 
-- 
-- given that XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+The following are regular expressions used with the gsub command to appropriately labels the data set with descriptive
+variable names.
 
   "Acc"," Accelerometer "
   "^t" replaced with "Time "
@@ -46,7 +46,7 @@ I used a "for" loop to:
   "Z" replaced with " Signal In Z Direction"
   
   Here is the output:
-  x"
+"x"
 "1" "subject"
 "2" "activity"
 "3" "Time Body  Accelerometer  Mean Value   Signal In X Direction"
@@ -132,8 +132,8 @@ I used a "for" loop to:
 5.	From the data set in step 4, creates a second, independent 
    tidy data set with the average of each variable for each activity and each subject.
    
-   - used metl and dcast commands to calculate the average of each variable for each activty and each subject.
-   Output of tidy data is included in tidydata.txt.
+   - Used melt and dcast commands to calculate the average of each variable for each activty and each subject.
+   - Output of tidy data is included in tidydata.txt.
    - 180 observations with 81 variables Names + 2 for the subject and activity
    - 180 observations (rows): subject (30) x activity (6 different activities)
    - 81 variables(columns): columns from the average of the measurements for mean and standard deviation
